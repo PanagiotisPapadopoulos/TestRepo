@@ -20,9 +20,7 @@ namespace HotelListing.Repository
             _context = context;
         }
         public IGenericRepository<Country> Countries => _countries ??= new GenericRepository<Country>(_context);
-        IGenericRepository<Hotel> Hotels => _hotels ??= new GenericRepository<Hotel>(_context);
-
-        IGenericRepository<Hotel> IUnitOfWork.Hotels => throw new NotImplementedException();
+        public IGenericRepository<Hotel> Hotels => _hotels ??= new GenericRepository<Hotel>(_context);
 
         public void Dispose()
         {

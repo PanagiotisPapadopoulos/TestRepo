@@ -85,9 +85,5 @@ namespace HotelListing.Repository
             _context.Entry(entity).State = EntityState.Modified;
         }
 
-        Task<IList<T>> IGenericRepository<T>.GetAll(Expression<Func<T, bool>> expression, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy, List<string> includes)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
