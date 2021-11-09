@@ -75,3 +75,8 @@ C:\projects\HotelListing\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.Depend
 C:\projects\HotelListing\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\projects\HotelListing\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\projects\HotelListing\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\projects\HotelListing\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\projects\HotelListing\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\projects\HotelListing\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\projects\HotelListing\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\projects\HotelListing\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
